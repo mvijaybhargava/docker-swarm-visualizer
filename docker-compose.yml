@@ -1,6 +1,6 @@
 trigger:
  -master
-viImage : 'ubuntu-latest'
+vmImage : 'ubuntu-latest'
 services:
   viz:
     build: .
