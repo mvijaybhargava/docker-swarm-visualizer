@@ -1,5 +1,6 @@
-version: "3"
-
+trigger:
+ -master
+viImage : 'ubuntu-latest'
 services:
   viz:
     build: .
